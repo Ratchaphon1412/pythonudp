@@ -6,9 +6,9 @@ RUN curl -sSL https://install.python-poetry.org | python -
 COPY . /app
 WORKDIR /app
 
-# Install dependencies
-RUN poetry config virtualenvs.create false
-RUN poetry install --no-dev
+# # Install dependencies
+# RUN poetry config virtualenvs.create false
+# RUN poetry install --no-dev
 
 # Run the application
 
